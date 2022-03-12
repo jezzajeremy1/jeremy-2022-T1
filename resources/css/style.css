@@ -11,11 +11,17 @@ body {
     color: white;
 }
 
+
+/* -------------------- HEADINGS AND TYPE */
+
 h1 {
     margin-left: 35%;
 }
 
-/* -------------------- HEADINGS AND TYPE */
+h2 {
+    color: bisque;
+    background-color: rgb(139, 69, 19);
+}
 
 /* -------------------- LAYOUTS */
 
