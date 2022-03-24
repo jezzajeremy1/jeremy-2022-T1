@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Baskerville';
+    src: url(../fonts/baskervilleregular.ttf);
+}
+
+@font-face {
+    font-family: 'Baskervilleitalic';
+    src: url(../fonts/baskervilleitalic.ttf);
+}
+
 @import url(normalize.css);
 
 
@@ -10,9 +20,9 @@
 
 body {
     background-color: rgb(48, 48, 48);
-    font-family: 'Baskervville', serif;
+    font-family: 'baskervilleregular';
     color: white;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 
@@ -32,8 +42,12 @@ h3 {
 }
 
 h4 {
+    font-family: 'baskervilleitalic';
     font-size: 350%;
-    margin-top: 0%;
+    margin-top: 2.5%;
+    text-align: right;
+    margin-left: 20px;
+    line-height: 90%;
 }
 
 
@@ -69,7 +83,7 @@ img {
     }
 
     .content-inner-text-module {
-        padding: 0%;
+        padding-right: 6%;
     }
 
     
