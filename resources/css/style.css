@@ -19,7 +19,7 @@
 
 
 body {
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(25, 25, 25);
     font-family: 'baskervilleregular';
     color: white;
     line-height: 1.7;
@@ -60,9 +60,17 @@ h4 {
 }
 
 img {
-    max-width: 80%;
+    max-width: 70%;
+    box-shadow: 100px;
+    filter: drop-shadow(.);
 
 }
+
+.big-cover {
+    max-width: 86%;
+}
+
+
 
 /* -------------------- HEADER */
 
@@ -74,6 +82,7 @@ img {
 
 .content-item {
     display: grid;
+    margin-top: 100px;
 }
 
 @media screen and (min-width: 400px) {
@@ -83,7 +92,8 @@ img {
     }
 
     .content-inner-text-module {
-        padding-right: 6%;
+        padding-right: 38px;
+        text-align: right;
     }
 
     
