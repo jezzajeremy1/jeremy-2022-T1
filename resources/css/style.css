@@ -59,7 +59,7 @@ h3 {
 
 h4 {
     font-family: 'baskervilleitalic';
-    font-size: 350%;
+    font-size: 390%;
     margin-top: 2.5%;
     text-align: right;
     margin-left: 20px;
@@ -76,13 +76,13 @@ h5 {
 }
 
 h6 {
-    margin-left: 5%;
-    margin-bottom: 5%;
     margin-top: auto;
     font-size: 330%;
     font-family: 'Monsterratbold';
     line-height: 100%;
 }
+
+
 
 
 /* -------------------- LAYOUTS */
@@ -99,14 +99,14 @@ h6 {
 
 .image-showcase {
     max-width: 80%;
-    box-shadow: 0 20px 30px 0 rgba(0, 0, 0,.4);
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0,.5);
     margin-left: auto;
     margin-right: auto;
 }
 
 .big-cover {
     max-width: 100%;
-    box-shadow: 0 20px 30px 0 rgba(0, 0, 0,.4);
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0,.6);
     margin-left: 5.5%;
     margin-left: auto;
     margin-right: auto;
@@ -148,7 +148,7 @@ h6 {
     .collection-item {
         display: grid;
         grid-template-columns: 50% 50%;
-        margin-top: 4.4%;
+        margin-top: 3.3%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -178,14 +178,17 @@ h6 {
 
     .title-setup {
         display: grid;
-        grid-template-columns: 0% 80%;
+        grid-template-columns: 3% 80%;
         margin-left: 2%;
-        margin-bottom: 50px;
+        margin-bottom: -50px;
     }
 
-    .more-collection-items {
+    .title-logo-setup {
         display: grid;
-        grid-template-columns: 50% 80%;
+        grid-template-columns: 20% 10% 80%;
+        margin-left: 2%;
+        margin-bottom: -50px;
     }
     
+
 }
