@@ -29,6 +29,20 @@
     background: white;
 }
 
+.title-logo-setup-mid {
+    display: grid;
+    grid-template-columns: 20% 10% 80%;
+    margin-left: 0%;
+    margin-bottom: -50px;
+}
+
+.title-logo-setup-conv {
+    display: grid;
+    grid-template-columns: 11% 20% 2% 40%;
+    margin-left: 0%;
+    margin-bottom: -50px;
+}
+
 /* -------------------- GLOBAL DEFAULTS */
 
 
@@ -40,6 +54,7 @@ body {
     color: white;
     line-height: 1.7;
 }
+
 
 
 /* -------------------- HEADINGS AND TYPE */
@@ -182,13 +197,18 @@ h6 {
         margin-left: 2%;
         margin-bottom: -50px;
     }
-
-    .title-logo-setup {
-        display: grid;
-        grid-template-columns: 20% 10% 80%;
-        margin-left: 2%;
-        margin-bottom: -50px;
-    }
     
+    .title-logo-short-form {
+        max-width: 100px;
+        margin-top: -30px;
+    }
 
-}
+    .title-logo-long-form {
+        max-width: 90%;
+    }
+
+    .collection-of-4 {
+        display: grid;
+        grid-template-columns: 5% 5% 5% 5%;
+    }
+}  
