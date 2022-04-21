@@ -147,13 +147,13 @@ iframe {
     margin-top: 100px;
 }
 
-@media screen and (min-width: 400px) {
+.verticle-line {
+    height: 53px;
+    width: 3.5px;
+    background: white;
+}
 
-    .verticle-line {
-        height: 53px;
-        width: 3.5px;
-        background: white;
-    }
+@media screen and (min-width: 200px) {
     
     .content-item {
         grid-template-columns: 50% 58%;
