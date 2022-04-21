@@ -70,6 +70,8 @@ h2 {
 
 h3 {
     font-family: 'Monsterratbold', sans-serif;
+    position: sticky;
+    top: 0%;
 }
 
 h4 {
@@ -154,6 +156,17 @@ iframe {
     background: white;
 }
 
+.content-inner-text-module {
+    text-align: center;
+}
+
+.follow-content {
+    display: grid;
+    grid-template-columns: auto auto 55%;
+    position: fixed;
+    opacity: 50%;
+
+}
 
 @media screen and (min-width: 415px) {
 
@@ -165,12 +178,6 @@ iframe {
         display: inline;
     }
 
-}
-
-
-
-@media screen and (min-width: 326px) {
-    
     .content-item {
         grid-template-columns: 50% 58%;
         margin-left: auto;
@@ -182,6 +189,16 @@ iframe {
         padding-right: 10%;
         text-align: right;
     }
+
+    .title-logo-setup-mid {
+        display: grid;
+        grid-template-columns: 20% 10% 80%;
+        margin-left: 0%;
+        margin-bottom: -50px;
+    }
+}
+
+@media screen and (min-width: 326px) {
 
     .content-inner-text-moduleright {
         margin-left: -3%;
@@ -230,15 +247,6 @@ iframe {
         margin-left: -3.2%;
         margin-bottom: 8%;
         margin-top: -63%;
-    }
-
-    .follow-content {
-        display: grid;
-        grid-template-columns: 42.54% 51% 28%;
-        margin-left: 3%;
-        position: fixed;
-        opacity: 50%;
-
     }
 
     .title-setup {
