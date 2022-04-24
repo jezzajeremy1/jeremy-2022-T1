@@ -19,8 +19,7 @@
 /* -------------------- VARIABLES */
 
 .small-button {
-    max-width: 7%;
-    margin-top: 6%;
+    margin-top: 6px;
 }
 
 .verticle-line {
@@ -34,6 +33,7 @@
     grid-template-columns: 20% 10% 80%;
     margin-left: 0%;
     margin-bottom: -50px;
+    display: none;
 }
 
 .title-logo-setup-conv {
@@ -41,6 +41,10 @@
     grid-template-columns: 11% 20% 2% 40%;
     margin-left: 0%;
     margin-bottom: -50px;
+}
+
+.mobile-mid-title {
+    max-width: 30px;
 }
 
 /* -------------------- GLOBAL DEFAULTS */
@@ -70,8 +74,6 @@ h2 {
 
 h3 {
     font-family: 'Monsterratbold', sans-serif;
-    position: sticky;
-    top: 0%;
 }
 
 h4 {
@@ -81,6 +83,7 @@ h4 {
     text-align: right;
     margin-left: 20px;
     line-height: 90%;
+    display: none;
 }
 
 h5 {
@@ -90,11 +93,27 @@ h5 {
     margin-left: 8%;
     line-height: 120%;
     margin-top: 40%;
+    display: none;
 }
 
 h6 {
     margin-top: auto;
     font-size: 330%;
+    font-family: 'Monsterratbold';
+    line-height: 100%;
+}
+
+.h7 {
+    font-family: 'baskervilleitalic';
+    font-size: 150%;
+    text-align: center;
+    line-height: 120%;
+    padding-top: 10px;
+}
+
+.h8 {
+    margin-top: auto;
+    font-size: 300%;
     font-family: 'Monsterratbold';
     line-height: 100%;
 }
@@ -139,6 +158,11 @@ iframe {
 
 /* -------------------- HEADER */
 
+header {
+    position: sticky;
+    top: 0%;
+}
+
 /* -------------------- NAVIGATION */
 
 /* -------------------- FOOTER */
@@ -162,8 +186,7 @@ iframe {
 
 .follow-content {
     display: grid;
-    grid-template-columns: auto auto 55%;
-    position: fixed;
+    grid-template-columns: auto auto 25px;
     opacity: 50%;
 
 }
@@ -190,12 +213,55 @@ iframe {
         text-align: right;
     }
 
+    h4 {
+        font-family: 'baskervilleitalic';
+        font-size: 390%;
+        margin-top: 2.5%;
+        text-align: right;
+        margin-left: 20px;
+        line-height: 90%;
+        display: block;
+    }
+
+    h5 {
+        font-family: 'baskervilleitalic';
+        font-size: 150%;
+        text-align: center;
+        margin-left: 8%;
+        line-height: 120%;
+        margin-top: 40%;
+        display: block;
+    }
+
+    .h7 {
+        font-family: 'baskervilleitalic';
+        font-size: 150%;
+        text-align: center;
+        line-height: 120%;
+        padding-top: 10px;
+        display: none;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 515px) {
+
     .title-logo-setup-mid {
         display: grid;
         grid-template-columns: 20% 10% 80%;
         margin-left: 0%;
         margin-bottom: -50px;
     }
+
+    .mobile-mid-title {
+        max-width: 30px;
+        display: none;
+    }
+    
+
 }
 
 @media screen and (min-width: 326px) {
