@@ -90,10 +90,8 @@ h5 {
     font-family: 'baskervilleitalic';
     font-size: 150%;
     text-align: center;
-    margin-left: 8%;
     line-height: 120%;
-    margin-top: 40%;
-    display: none;
+    margin-top: 20%;
 }
 
 h6 {
@@ -124,7 +122,7 @@ h6 {
 /* -------------------- LAYOUTS */
 
 .layout-wide {
-    max-width: 1000px;
+    max-width: 935px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -171,7 +169,7 @@ header {
 
 .content-item {
     display: grid;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 .verticle-line {
@@ -206,6 +204,7 @@ header {
         margin-left: auto;
         margin-right: auto;
         margin-right: 4%;
+        margin-top: 100px;
     }
 
     .content-inner-text-module {
@@ -230,7 +229,6 @@ header {
         margin-left: 8%;
         line-height: 120%;
         margin-top: 40%;
-        display: block;
     }
 
     .h7 {
@@ -264,7 +262,7 @@ header {
 
 }
 
-@media screen and (min-width: 326px) {
+@media screen and (min-width: 300px) {
 
     .content-inner-text-moduleright {
         margin-left: -3%;
