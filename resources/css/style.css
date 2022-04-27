@@ -20,6 +20,7 @@
 
 .small-button {
     margin-top: 25px;
+    margin-left: -10px;
 }
 
 .verticle-line {
@@ -197,13 +198,15 @@ header {
 
 .follow-content {
     display: grid;
-    grid-template-columns: auto 52% 20px;
+    grid-template-columns: auto 55% 20px;
     opacity: 50%;
+    margin-left: 2%;
 }
 
 .mobile-follow-first {
     display: none;
 }
+
 
 
 
@@ -254,6 +257,10 @@ header {
         display: none;
     }
 
+    .small-button {
+        margin-top: 25px;
+    }
+
 
 
 
@@ -284,6 +291,13 @@ header {
         height: 53px;
         width: 3.5px;
         background: white;
+    }
+
+    .follow-content {
+        display: grid;
+        grid-template-columns: auto 52% 20px;
+        opacity: 50%;
+        margin-left: 10px;
     }
     
 
@@ -369,6 +383,12 @@ header {
         width: 3.5px;
         background: white;
         margin-left: 25px;
+    }
+
+    .follow-content {
+        display: grid;
+        grid-template-columns: auto 52% 20px;
+        opacity: 50%;
     }
     
 }
