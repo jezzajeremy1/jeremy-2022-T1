@@ -160,6 +160,7 @@ iframe {
 
 
 
+
 /* -------------------- HEADER */
 
 header {
@@ -198,23 +199,19 @@ header {
 @media screen and (min-width: 415px) {
 
     .image-showcase {
-        max-width: 80%;
+        max-width: 90%;
         box-shadow: 0 20px 30px 0 rgba(0, 0, 0,.5);
-        margin-left: auto;
-        margin-right: auto;
         display: inline;
     }
 
     .content-item {
-        grid-template-columns: 50% 58%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-right: 4%;
+        grid-template-columns: 50% 50%;
         margin-top: 100px;
     }
 
     .content-inner-text-module {
-        padding-right: 10%;
+        padding-right: 5%;
+        box-sizing: border-box;
         text-align: right;
     }
 
@@ -284,24 +281,17 @@ header {
 
     .collection-item {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 44.9% 4.9% 44.9%;
         margin-top: 3.3%;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .extra-collectionleft {
-        max-width: 88%;
-        box-shadow: 0 20px 30px 0 rgba(0, 0, 0,.4);
-        margin-left: 1%;
-        margin-bottom: 8%;
+        margin-left: 6.5%;
     }
     
     .extra-collectionright {
-        max-width: 88%;
-        box-shadow: 0 20px 30px 0 rgba(0, 0, 0,.4);
-        margin-left: -3.4%;
-        margin-bottom: 8%;
+        margin-bottom: 8.5%;
+        margin-left: 6.5%;
     }
 
     .landscape-extra-collectionright {
