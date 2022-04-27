@@ -19,7 +19,7 @@
 /* -------------------- VARIABLES */
 
 .small-button {
-    margin-top: 6px;
+    margin-top: 25px;
 }
 
 .verticle-line {
@@ -51,10 +51,10 @@
 .mobile-mid-title {
     display: grid;
     grid-template-columns: 6px 1px;
+    margin-bottom: 70px;
 }
 
 /* -------------------- GLOBAL DEFAULTS */
-
 
 
 
@@ -197,10 +197,15 @@ header {
 
 .follow-content {
     display: grid;
-    grid-template-columns: auto auto 25px;
+    grid-template-columns: auto 52% 20px;
     opacity: 50%;
-
 }
+
+.mobile-follow-first {
+    display: none;
+}
+
+
 
 @media screen and (min-width: 415px) {
 
@@ -284,17 +289,18 @@ header {
 
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 280px) {
 
-    .content-inner-text-moduleright {
-        margin-left: -3%;
-        margin-top: -150px;
+    .content-inner-text-moduleright-funkydisplay {
+        margin-top: -27%;
+        padding-left: 6%;
+
     }
 
     .collection-item {
         display: grid;
         grid-template-columns: 44.9% 4.9% 44.9%;
-        margin-top: 3.3%;
+        margin-top: 5%;
     }
 
     .extra-collectionleft {
@@ -307,25 +313,25 @@ header {
     }
 
     .landscape-extra-collectionright {
-        max-width: 88%;
         box-shadow: 0 20px 30px 0 rgba(0, 0, 0,.4);
-        margin-left: -3.2%;
-        margin-bottom: 8%;
+        margin-bottom: 8.5%;
+        margin-left: 6.5%;
     }
 
     .landscape-extra-collectionleft {
-        max-width: 88%;
         box-shadow: 0 20px 30px 0 rgba(0, 0, 0,.4);
-        margin-left: 1%;
         margin-bottom: 8%;
+        margin-left: 6.5%;
+        margin-top: 8.5%;
     }
 
+
     .reactionary-landscape-extra-collectionright {
-        max-width: 88%;
         box-shadow: 0 20px 30px 0 rgba(0, 0, 0,.4);
-        margin-left: -3.2%;
+        margin-left: 6.5%;
         margin-bottom: 8%;
-        margin-top: -63%;
+        margin-top: -60%;
+        max-width: 100%;
     }
 
     .title-setup {
@@ -348,6 +354,11 @@ header {
         max-width: 80%;
     }
 
+    .a-particularcasewith-converse {
+        width: 161.19;
+        height: 221.48;
+    }
+
     
 }  
 
@@ -361,3 +372,17 @@ header {
     }
     
 }
+
+
+@media screen and (min-width: 900px) {
+
+    .mobile-follow-first {
+        display: block;
+    }
+
+    .mobile-follow {
+        display: none;
+    }
+    
+}
+
