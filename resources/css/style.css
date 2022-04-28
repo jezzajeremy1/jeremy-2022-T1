@@ -244,7 +244,7 @@ header {
 
 footer {
     position: sticky;
-    bottom: 2px;
+    bottom: 10px;
     opacity: 50%;
 }
 
