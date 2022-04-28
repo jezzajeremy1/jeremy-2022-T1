@@ -77,6 +77,8 @@ h1 {
 
 h2 {
     color: rgb(255, 255, 255);
+    font-family: 'Monsterratbold', sans-serif;
+    font-size: 90%;
 }
 
 h3 {
@@ -181,8 +183,8 @@ header {
     margin-top: 550px;
     margin-left: 4%; */
 
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 0% auto;
 }
 
 .vid-port {
@@ -191,6 +193,15 @@ header {
 
 .pho-port {
     margin-top: -60px;
+    text-align: right;
+}
+
+.gra-port {
+    text-align: center;
+    margin-top: -85px;
+}
+
+.act-port {
 }
 
 
@@ -231,91 +242,12 @@ header {
     display: none;
 }
 
-
-
-@media screen and (min-width: 415px) {
-
-    .image-showcase {
-        max-width: 90%;
-        box-shadow: 0 20px 30px 0 rgba(0, 0, 0,.5);
-        display: inline;
-    }
-
-    .content-item {
-        grid-template-columns: 50% 50%;
-        margin-top: 100px;
-    }
-
-    .content-inner-text-module {
-        padding-right: 5%;
-        box-sizing: border-box;
-        text-align: right;
-    }
-
-    h4 {
-        display: block;
-    }
-
-    h5 {
-        font-size: 150%;
-        margin-left: 8%;
-        margin-top: 40%;
-    }
-
-    .h7 {
-        display: none;
-    }
-
-    .small-button {
-        margin-top: 25px;
-    }
-
-
-}
-
-
-
-@media screen and (min-width: 515px) {
-
-    .title-logo-setup-mid {
-        display: grid;
-        grid-template-columns: 20% 10% 70%;
-        margin-left: 0%;
-        margin-bottom: -50px;
-    }
-
-    .mobile-mid-title {
-        max-width: 30px;
-        display: none;
-    }
-
-    .verticle-line-mid {
-        height: 100px;
-        margin-left: 25px;
-    }
-
-    .verticle-line-fields {
-        height: 53px;
-        width: 3.5px;
-        background: white;
-    }
-
-    .follow-content {
-        display: grid;
-        grid-template-columns: auto 54% 20px;
-        opacity: 50%;
-        margin-left: 10px;
-    }
-    
-
-}
-
-
 footer {
     position: sticky;
     bottom: 21px;
     opacity: 50%;
 }
+
 
 @media screen and (min-width: 280px) {
 
@@ -391,6 +323,110 @@ footer {
     
 }  
 
+
+@media screen and (min-width: 415px) {
+
+    .image-showcase {
+        max-width: 90%;
+        box-shadow: 0 20px 30px 0 rgba(0, 0, 0,.5);
+        display: inline;
+    }
+
+    .content-item {
+        grid-template-columns: 50% 50%;
+        margin-top: 100px;
+    }
+
+    .content-inner-text-module {
+        padding-right: 5%;
+        box-sizing: border-box;
+        text-align: right;
+    }
+
+    h4 {
+        display: block;
+    }
+
+    h5 {
+        font-size: 150%;
+        margin-left: 8%;
+        margin-top: 40%;
+    }
+
+    .h7 {
+        display: none;
+    }
+
+    .small-button {
+        margin-top: 25px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 515px) {
+
+    .title-logo-setup-mid {
+        display: grid;
+        grid-template-columns: 20% 10% 70%;
+        margin-left: 0%;
+        margin-bottom: -50px;
+    }
+
+    .mobile-mid-title {
+        max-width: 30px;
+        display: none;
+    }
+
+    .verticle-line-mid {
+        height: 100px;
+        margin-left: 25px;
+    }
+
+    .verticle-line-fields {
+        height: 53px;
+        width: 3.5px;
+        background: white;
+    }
+
+    .follow-content {
+        display: grid;
+        grid-template-columns: auto 54% 20px;
+        opacity: 50%;
+        margin-left: 10px;
+    }
+    
+
+}
+
+@media screen and (min-width: 600px) {
+
+    .navigation-follow-2 {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .vid-port {
+        margin-top: -60px;
+    }
+    
+    .pho-port {
+        margin-top: -60px;
+        text-align: right;
+        margin-left: 0%;
+    }
+    
+    .gra-port {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 120%;
+    }
+    
+}
+
 @media screen and (min-width: 842px) {
 
     .verticle-line-mid {
@@ -434,7 +470,6 @@ footer {
 
     .navigation-follow-2 {
         display: none;
-
     }
 
     .vid-port {
@@ -443,6 +478,8 @@ footer {
 
     .pho-port {
         margin-top: -60px;
+        margin-left: 0%;
+        text-align: center;
     }
 
     /* 
