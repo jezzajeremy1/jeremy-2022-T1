@@ -295,7 +295,7 @@ header {
 
     .follow-content {
         display: grid;
-        grid-template-columns: auto 52% 20px;
+        grid-template-columns: auto 54% 20px;
         opacity: 50%;
         margin-left: 10px;
     }
@@ -305,9 +305,14 @@ header {
 
 @media screen and (min-width: 280px) {
 
-    .content-inner-text-moduleright-funkydisplay {
-        margin-top: -27%;
+    .footer {
+        opacity: 50%;
+    }
+
+    .content-inner-text-module-middledisplay {
+        margin-top: 7%;
         padding-left: 6%;
+        text-align: center;
 
     }
 
@@ -373,6 +378,13 @@ header {
         height: 221.48;
     }
 
+    .navigation-follow {
+        display: grid;
+        grid-template-columns: 5% 5% 5% auto auto;
+        margin-top: 550px;
+        margin-left: 4%;
+    }
+
     
 }  
 
@@ -387,7 +399,7 @@ header {
 
     .follow-content {
         display: grid;
-        grid-template-columns: auto 52% 20px;
+        grid-template-columns: auto 54% 20px;
         opacity: 50%;
     }
     
@@ -402,6 +414,24 @@ header {
 
     .mobile-follow {
         display: none;
+    }
+
+    .follow-content {
+        display: grid;
+        grid-template-columns: auto 52% 20px;
+        opacity: 50%;
+    }
+
+    .vid-port {
+        max-width: 5px;
+
+    }
+
+    .navigation-follow {
+        display: grid;
+        grid-template-columns: 15% 27% 20% auto auto;
+        margin-top: 550px;
+        margin-left: 4%;
     }
     
 }
