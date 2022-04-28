@@ -76,7 +76,23 @@ body {
 
 h1 {
     margin-left: 0%;
-    font-family: 'baskervilleitalic';
+    color: rgb(255, 255, 255);
+    font-family: 'Monsterratbold', sans-serif;
+}
+
+.hero1 {
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    font-size: 110px;
+}
+
+.hero2 {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    text-align: right;
+    font-size: 70px;
 }
 
 h2 {
