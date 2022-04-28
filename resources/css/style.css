@@ -18,6 +18,9 @@
 
 /* -------------------- VARIABLES */
 
+.punkbreak {
+}
+
 .small-button {
     margin-top: 25px;
     margin-left: -10px;
@@ -35,7 +38,7 @@
 
 .title-logo-setup-conv {
     display: grid;
-    grid-template-columns: 20% 2% 30%;
+    grid-template-columns: 120px 3% 25%;
     margin-left: 0px;
     margin-bottom: -80px;
 }
@@ -299,12 +302,13 @@ footer {
 
     .title-logo-short-form {
         max-block-size: 100px;
-        margin-top: -10px;
+        margin-top: 0px;
     }
 
     .title-logo-long-form {
         display: none;
         max-block-size: 36px;
+    
     }
 
     /*--------------------------------------*/
@@ -356,9 +360,18 @@ footer {
 
 }
 
+@media screen and (min-width: 480px) {
+
+    .title-logo-setup-conv {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: -70px;
+    }
+    
+}
+
 
 @media screen and (min-width: 515px) {
-    
 
     .title-logo-setup-mid {
         display: flex;
@@ -401,15 +414,12 @@ footer {
     }
 
     .title-logo-setup-conv {
-        display: flex;
-        justify-content: space-around;
-        margin-left: 25px;
-        margin-bottom: -70px;
+        margin-left: 1px;
+        margin-top: -24px;
     }
 
-    .verticle-line-conv {
-        height: 53px;
-        margin-right: 20px;
+    .punkbreak {
+        display: none;
     }
 
 
@@ -472,7 +482,7 @@ footer {
 
     .title-logo-long-form {
         max-width: 100%;
-        margin-top: 20px;
+        margin-top: 11px;
         margin-left: -20px;
         display: block;
     }
