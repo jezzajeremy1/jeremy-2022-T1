@@ -244,7 +244,7 @@ header {
 
 footer {
     position: sticky;
-    bottom: 21px;
+    bottom: 2px;
     opacity: 50%;
 }
 
@@ -423,6 +423,10 @@ footer {
 
     h2 {
         font-size: 120%;
+    }
+
+    footer {
+        bottom: 21px;
     }
     
 }
