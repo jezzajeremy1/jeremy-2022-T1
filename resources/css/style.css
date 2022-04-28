@@ -171,6 +171,30 @@ header {
 
 /* -------------------- NAVIGATION */
 
+.navigation-follow-1 {
+    display: none;
+}
+
+.navigation-follow-2 {
+    /* display: grid;
+    grid-template-columns: 5% 5% 5% auto auto;
+    margin-top: 550px;
+    margin-left: 4%; */
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.vid-port {
+    margin-top: -60px;
+}
+
+.pho-port {
+    margin-top: -60px;
+}
+
+
+
 /* -------------------- FOOTER */
 
 /* -------------------- MODULES */
@@ -209,7 +233,6 @@ header {
 
 
 
-
 @media screen and (min-width: 415px) {
 
     .image-showcase {
@@ -230,30 +253,16 @@ header {
     }
 
     h4 {
-        font-family: 'baskervilleitalic';
-        font-size: 390%;
-        margin-top: 2.5%;
-        text-align: right;
-        margin-left: 20px;
-        line-height: 90%;
         display: block;
     }
 
     h5 {
-        font-family: 'baskervilleitalic';
         font-size: 150%;
-        text-align: center;
         margin-left: 8%;
-        line-height: 120%;
         margin-top: 40%;
     }
 
     .h7 {
-        font-family: 'baskervilleitalic';
-        font-size: 150%;
-        text-align: center;
-        line-height: 120%;
-        padding-top: 10px;
         display: none;
     }
 
@@ -262,9 +271,9 @@ header {
     }
 
 
-
-
 }
+
+
 
 @media screen and (min-width: 515px) {
 
@@ -282,8 +291,6 @@ header {
 
     .verticle-line-mid {
         height: 100px;
-        width: 3.5px;
-        background: white;
         margin-left: 25px;
     }
 
@@ -303,11 +310,15 @@ header {
 
 }
 
+
+footer {
+    position: sticky;
+    bottom: 21px;
+    opacity: 50%;
+}
+
 @media screen and (min-width: 280px) {
 
-    .footer {
-        opacity: 50%;
-    }
 
     .content-inner-text-module-middledisplay {
         margin-top: 7%;
@@ -377,14 +388,6 @@ header {
         width: 161.19;
         height: 221.48;
     }
-
-    .navigation-follow {
-        display: grid;
-        grid-template-columns: 5% 5% 5% auto auto;
-        margin-top: 550px;
-        margin-left: 4%;
-    }
-
     
 }  
 
@@ -392,9 +395,6 @@ header {
 
     .verticle-line-mid {
         height: 53px;
-        width: 3.5px;
-        background: white;
-        margin-left: 25px;
     }
 
     .follow-content {
@@ -422,17 +422,42 @@ header {
         opacity: 50%;
     }
 
-    .vid-port {
-        max-width: 5px;
+    .navigation-follow-1 {
+        /* display: grid;
+        grid-template-columns: 5% 5% 5% auto auto;
+        margin-top: 550px;
+        margin-left: 4%; */
 
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navigation-follow-2 {
+        display: none;
+
+    }
+
+    .vid-port {
+        margin-top: -60px;
+    }
+
+    .pho-port {
+        margin-top: -60px;
+    }
+
+    /* 
+
+    .pho-port {
+        max-width: 5px;
+        margin-top: -60px;
     }
 
     .navigation-follow {
         display: grid;
-        grid-template-columns: 15% 27% 20% auto auto;
+        grid-template-columns: 15% 27% 23% 22% auto;
         margin-top: 550px;
         margin-left: 4%;
-    }
+    } */
     
 }
 
